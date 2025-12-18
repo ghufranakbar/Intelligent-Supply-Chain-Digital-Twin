@@ -2,7 +2,7 @@
 
 A comprehensive data engineering solution for building a digital twin of supply chain operations using Apache Airflow, PostgreSQL, dbt, and Python. This project automates data ingestion, transformation, and analytics pipelines for the E-commerce Supply Chain dataset.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements a modern data stack for supply chain analytics with:
 

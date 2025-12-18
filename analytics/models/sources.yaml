@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: supply_chain_raw
+    database: supply_chain_db
+    schema: public
+    tables:
+      - name: orders
+      - name: items
+        identifier: order_items  
+      - name: customers
+      - name: products
+      - name: sellers
+      - name: geolocation

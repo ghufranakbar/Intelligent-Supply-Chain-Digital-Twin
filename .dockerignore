@@ -1,0 +1,11 @@
+# Ignore logs and temp files
+logs/
+plugins/
+dags/__pycache__/
+analytics/dbt_packages/
+analytics/target/
+analytics/logs/
+.git/
+.env
+__pycache__/
+*.pyc

@@ -1,0 +1,12 @@
+analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('DBT_POSTGRES_HOST', 'postgres') }}"
+      user: "{{ env_var('DBT_POSTGRES_USER', 'user') }}"
+      password: "{{ env_var('DBT_POSTGRES_PASSWORD', 'password') }}"
+      port: "{{ env_var('DBT_POSTGRES_PORT', '5432') }}"
+      dbname: "{{ env_var('DBT_POSTGRES_DBNAME', 'supply_chain_db') }}"
+      schema: analytics
+      threads: 4
